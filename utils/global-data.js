@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Новейшая Религия';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Петушаринаство';
+    : 'Петушарианство';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'Во имени петуха, петушары и петушиного духа. АЛО!';
